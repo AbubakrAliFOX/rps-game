@@ -1,0 +1,25 @@
+.Header {
+    width: 70%;
+}
+
+.scoreboard {
+    height: 120px;
+    width: 100px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .Header {
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .Header {
+        width: 100%;
+    }
+    .scoreboard {
+        width: 70px;
+    
+    }
+  }
